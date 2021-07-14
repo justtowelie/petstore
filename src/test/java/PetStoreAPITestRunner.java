@@ -1,9 +1,9 @@
-import cucumber.api.CucumberOptions;
-import io.cucumber.junit.Cucumber;
+
+import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
+import io.cucumber.junit.CucumberOptions;
 
-
-@RunWith(Cucumber.class)
+@RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = {"api-tests/features/"},
         glue = {"definitions"},
