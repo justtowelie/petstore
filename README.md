@@ -12,3 +12,4 @@ Notes:
 - Would've liked to use a response POJO but was experiencing issues and due to time constraints wanted to get this submitted
 - Observed sometimes the endpoints run too quickly when run as an e2e journey (i.e. place order, get order, delete order) this can be resolved by using a class like Awaitility
 but saw it pass consistently so have not implemented this for now. 
+- There are comments in the code
